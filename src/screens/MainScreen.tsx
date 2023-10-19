@@ -1,5 +1,5 @@
 // src/screens/MainScreen.tsx
-import React, { useRef, createContext, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { WebView, WebViewNavigation } from 'react-native-webview';
 import { WebviewContext } from '../contexts/webviewContext';
 
@@ -9,11 +9,6 @@ interface MainScreenProps {
 	route: any;
 	updateNavState: (newNavState: WebViewNavigation) => void;
 }
-
-type AddressData = {
-	address: string;
-	zonecode: string;
-};
 
 const MainScreen: React.FC<MainScreenProps> = ( {navigation, route, updateNavState} ) => {
 	
