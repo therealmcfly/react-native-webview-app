@@ -26,7 +26,7 @@ const MainScreen: React.FC<MainScreenProps> = ( {navigation, route, updateNavSta
     <WebviewContext.Provider value={{ webViewRef }}>
       <WebView
         ref={webViewRef}
-        source={{ uri: 'https://google.com' }}
+        source={{ uri: 'https://hujin.org' }}
 				originWhitelist={["*"]}
         startInLoadingState
         javaScriptEnabled

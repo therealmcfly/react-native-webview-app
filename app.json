@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "react-native-webview-app",
-    "slug": "react-native-webview-app",
+    "name": "후진항",
+    "slug": "hujin-port-application",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/hujin-app-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/hujin-app-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.interfo.hujinportapplication",
+			"versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eeee944d-3161-41c0-afe0-f828aa63fe18"
+      }
     }
   }
 }
